@@ -16,5 +16,6 @@ class Song < ActiveRecord::Base
     else
       self.create_artist(name: "Drake")
       self.save
+    end
   end
 end
